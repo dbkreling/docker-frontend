@@ -1,3 +1,28 @@
+
+
+## Dependencies ##
+ - node LTS
+    - go to nodejs.org and select your Language and Operating System
+
+ - create-react-app
+    - in a terminal window, issue 'sudo npm install -g create-react-app'
+    
+    - to run it:
+        $ create-react-app frontend
+            This will create a new folder called 'frontend' with a small react project inside.
+        
+
+## Running the Frontend project ##
+
+    - $   cd frontend
+    - $   npm run start  (Starts up a development server. For development user only)
+    - $   npm run test   (Runs tests associated with the project)
+    - $   npm run build  (Builds a production version of the application)
+
+
+
+# Original Contents: created automatically
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
