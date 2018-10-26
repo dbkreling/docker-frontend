@@ -5,16 +5,20 @@
     - go to nodejs.org and select your Language and Operating System
 
  - create-react-app
+    If you don't have it installed, do it:
     - in a terminal window, issue 'sudo npm install -g create-react-app'
     
     - to run it:
         $ create-react-app frontend
             This will create a new folder called 'frontend' with a small react project inside.
-        
+
+    NOTE: The code included in this repository is at this point. It was pushed to gitghub right after the frontend project was created (and it was named 'docker-frontend')
 
 ## Running the Frontend project ##
 
-    - $   cd frontend
+  You should start from here after you cloned the repository:
+
+    - $   cd node docker-frontend
     - $   npm run start  (Starts up a development server. For development user only)
     - $   npm run test   (Runs tests associated with the project)
     - $   npm run build  (Builds a production version of the application)
